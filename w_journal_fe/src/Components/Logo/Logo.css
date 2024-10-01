@@ -1,0 +1,25 @@
+.logotype {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder ;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow:
+    0 0 5px rgb(15, 223, 15),
+    0 0 10px rgb(82, 240, 9), 
+    0 0 20px rgb(39, 223, 22), 
+    0 0 40px rgb(0, 255, 64), 
+    0 0 80px rgb(41, 223, 24), 
+    0 0 120px rgb(18, 199, 27);
+    animation: neon 1.5s infinite alternate;
+}
+
+.logo-block {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+}

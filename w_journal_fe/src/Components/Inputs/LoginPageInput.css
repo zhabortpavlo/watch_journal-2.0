@@ -1,0 +1,25 @@
+input {
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
+    background-color: rgb(240, 230, 230);
+}
+
+.invalid-input {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 10px;
+  }
+
+  .icon-container {
+    position: relative;
+    display: flex;
+    margin-top: -45px;
+    margin-right: -300px;
+    cursor: pointer;
+  }
