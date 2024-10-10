@@ -29,6 +29,7 @@
     0 0 80px rgb(41, 223, 24), 
     0 0 120px rgb(18, 199, 27);
     animation: neon 1.5s infinite alternate;
+    user-select: none;
 }
 
 .search {

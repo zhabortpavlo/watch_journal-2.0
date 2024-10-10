@@ -8,8 +8,9 @@ function App() {
   return (
     <Router>
       <Routes>
+        {/* Додано маршрут для домашньої сторінки */}
         <Route path="/registration" element={<RegistrationPage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/mainpage" element={<MainPage />} />
       </Routes>
     </Router>
